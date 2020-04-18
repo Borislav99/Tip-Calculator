@@ -2,8 +2,8 @@
   //varijable
   let form = document.querySelector(".form");
   let billInput = document.querySelector(".inputBill");
-  let peopleInput = document.querySelector(".inputPercent");
-  let percentInput = document.querySelector(".inputPeople");
+  let peopleInput = document.querySelector(".inputPeople");
+  let percentInput = document.querySelector(".inputPercent");
   let resultsContainer = document.querySelector(".results-container");
   let resultsBill = document.querySelector(".totalBill");
   let resultsTip = document.querySelector(".totalTip");
