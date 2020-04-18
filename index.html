@@ -11,41 +11,63 @@
     />
   </head>
   <body>
+    <!--Center Container-->
     <div class="center__container">
+      <!--Calculator Container-->
       <div class="tip-calculator__container">
+        <!--Naslov-->
         <h1 class="tip-calculator__container--heading">
           tip calculator
         </h1>
+        <!--Naslov-->
+        <!--Feedback-->
         <p class="feedback"></p>
+        <!--Feedback-->
+        <!--Form Container-->
         <div class="form-container">
           <form action="" class="form">
+            <!--Input Bill-->
             <div class="form-container__bill">
               <input type="number" name="" class="inputBill" />
               <p class="labelBill">bill value</p>
             </div>
+            <!--Input Bill-->
+            <!--Input People-->
             <div class="form-container__percent">
               <input type="number" name="" class="inputPercent" />
               <p class="labelPercent">people</p>
             </div>
+            <!--Input People-->
+            <!--Input Experience-->
             <div class="form-container__people">
               <input type="range" name="" class="inputPeople" />
               <p class="labelExperience">experience</p>
             </div>
+            <!--Input Experience-->
             <input type="submit" value="submit" class="submit" />
           </form>
         </div>
+        <!--Form Container-->
+        <!--Loading Container-->
         <div class="loader-container">
           <p class="calculating hide">Calculating...</p>
           <img src="./img/roller.gif" alt="" class="loader hide" />
         </div>
+        <!--Loading Container-->
+        <!--Results Container-->
         <div class="results-container hide">
           <p class="totalP">Results:</p>
           <p class="tip">Tip is: <span class="totalTip">100$</span></p>
           <p class="bill">Total bill is: <span class="totalBill">100$</span></p>
-          <p class="person">Each person owns: <span class="totalPerson">100$</span></p>
+          <p class="person">
+            Each person owns: <span class="totalPerson">100$</span>
+          </p>
         </div>
+        <!--Results Container-->
       </div>
+      <!--Calculator Container-->
     </div>
+    <!--Center Container-->
     <script src="app.js"></script>
   </body>
 </html>
